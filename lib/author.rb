@@ -21,6 +21,10 @@ class Author
    add_post(post)
   end
   
+  def post_count 
+    @posts.count
+  end 
+  
 end 
 
 
